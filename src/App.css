@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 2500px;
+  min-width: 2500px;
+}
