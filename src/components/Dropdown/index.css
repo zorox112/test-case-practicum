@@ -12,6 +12,8 @@
 
     padding: 0;
     margin: 0;
+
+    cursor: pointer;
 }
 
 .Dropdown__trigger:hover {
@@ -29,6 +31,8 @@
 
     display: flex;
     align-items: center;
+
+    cursor: pointer;
 }
 
 .Dropdown__Text {

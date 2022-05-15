@@ -9,14 +9,17 @@ import './App.css';
 const menuItems: MenuItem[] = [
     {
         title: 'Поделиться в социальных сетях социальных сетях', icon: 'share', action: () => {
+            console.log('Жмяк 1');
         }, id: 'share'
     },
     {
         title: 'Редактировать страницу', icon: 'edit', action: () => {
+            console.log('Жмяк 2');
         }, id: 'edit'
     },
     {
         title: 'Удалить страницу', icon: 'delete', action: () => {
+            console.log('Жмяк 3');
         }, id: 'delete'
     },
 ];
@@ -24,6 +27,7 @@ const menuItems: MenuItem[] = [
 const menuItems2: MenuItem[] = [
     {
         title: 'Поделиться в социальных сетях', icon: 'share', action: () => {
+            console.log('Жмяк 4');
         }, id: 'share'
     },
 ];
