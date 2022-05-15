@@ -6,3 +6,10 @@
   min-height: 2500px;
   min-width: 2500px;
 }
+
+.App__Title {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
